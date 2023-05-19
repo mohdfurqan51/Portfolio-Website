@@ -8,7 +8,7 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf');
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
+      <hemisphereLight intensity={0.15} groundColor='black' />
       
       <spotLight 
         position={[-20, 50, 10]}
@@ -50,8 +50,9 @@ const ComputersCanvas = () => {
     // Remove the listener when the component is unmounted
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
-    }
-  }, [])
+    };
+  }, []);
+
   return (
     <Canvas
       frameloop="demand"
