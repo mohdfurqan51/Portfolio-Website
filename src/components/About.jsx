@@ -44,9 +44,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I know frameworks like React, Node.js, and Three.js by learning through youtube videos. 
+        My toolbox includes HTML, CSS, and JavaScript as the foundation upon which I build responsive and accessible web applications. Whether it's creating pixel-perfect layouts, implementing smooth animations, or integrating dynamic content, I thrive on the challenge of bridging the gap between design and technology.
       </motion.p>
 
+       <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        Beyond coding, I prioritize user experience, ensuring that every interaction—from the click of a button to the navigation through complex workflows—is intuitive and delightful. I keep a keen eye on performance optimization and browser compatibility, because I believe that every user deserves a fast, seamless experience regardless of their device or platform.
+      </motion.p>
+     
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
