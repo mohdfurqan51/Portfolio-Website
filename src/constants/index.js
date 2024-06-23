@@ -27,6 +27,7 @@ import {
     android,
     androidStudio,
     gpt3userinterface,
+    namanaturals,
     merndashboard,
     restaurant
   } from "../assets";
@@ -226,30 +227,26 @@ import {
       website_link: "https://restaurant-menu-booking.netlify.app",
     },
     {
-      name: "Real Estate Dashboard",
+      name: "Namanaturals",
       description:
-        "This dashboard is built using the MERN stack, provides a comprehensive and user-friendly platform for real estate professionals and enthusiasts. ",
+        "It is an E-commerce website that I had made for a local business named Namanaturals in Lucknow. They sell organic skincare products. I have worked on the frontend part of the website.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "express",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "node",
+          name: "javascript",
           color: "orange-text-gradient",
         },
       ],
-      image: merndashboard,
+      image: namanaturals,
       source_code_link: "https://github.com/",
-      website_link: "https://real-estate-dashboard41.netlify.app",
+      website_link: "https://namanaturals.netlify.app/",
     },
     {
       name: "ChatGPT User Interface",
