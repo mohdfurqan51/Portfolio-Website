@@ -64,7 +64,7 @@ const Works = () => {
           My Projects
         </p>
         <h2 className={styles.sectionHeadText}>
-          Personal Projects
+          Projects
         </h2>
       </motion.div>
 
