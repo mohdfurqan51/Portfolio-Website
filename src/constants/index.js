@@ -229,7 +229,7 @@ import {
     {
       name: "Namanaturals",
       description:
-        "It is an E-commerce website that I had made for a local business named Namanaturals in Lucknow. They sell organic skincare products. I have worked on the frontend part of the website.",
+        "It is an E-commerce website that I had made for a local business named Namanaturals in Lucknow.",
       tags: [
         {
           name: "html",
