@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import gpt3userinterface from "./gpt3userinterface.png";
 import merndashboard from "./merndashboard.png";
 import restaurant from "./restaurant.png";
+import namanaturals from "./namanaturals.png";
 
 export {
   logo,
@@ -71,5 +72,6 @@ export {
   androidStudio,
   gpt3userinterface,
   merndashboard,
+  namanaturals,
   restaurant,
 };
